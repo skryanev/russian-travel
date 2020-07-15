@@ -1,0 +1,17 @@
+.lead__image {
+    width: 100%;
+}
+/*
+@media all and (max-width: 1024px) {
+    .lead__image {
+        width: 928px;
+    }
+}
+
+@media all and (max-width: 928px) {
+    .lead__image {
+        width: 100%;
+    }
+}
+
+*/

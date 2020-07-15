@@ -1,0 +1,11 @@
+.place__textbox {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+@media all and (max-width: 720px) {
+    .place__textbox {
+        margin: 0 16px 0 16px;
+    }
+}
