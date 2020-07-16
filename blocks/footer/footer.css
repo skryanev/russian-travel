@@ -2,25 +2,30 @@
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
 
+
 .footer {
-    margin: 92px auto 24px auto;
+    font-family: Inter, Arial, sans-serif;
+    margin: 92px 48px 24px 48px;
     width: calc(100% - 96px);
+    max-width: 1280px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-@media all and (max-width: 1020px) {
+@media all and (max-width: 768) {
     .footer {
         width: calc(100% - 48px);
+        margin: 88px 24px 24px 24px;
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 725px) {
     .footer {
         width: calc(100% - 32px);
         flex-direction: column; 
         align-items: flex-start;
+        margin: 64px auto 24px 16px;
        
     }
 }

@@ -8,11 +8,16 @@
 @import url(./__paragraph/place__paragragh.css);
 
 .place {
+    font-family: Inter, Arial, sans-serif;
     display: grid;
     grid-template-columns: 460px 484px;
     grid-template-rows: auto 460px;
     grid-gap: 48px 40px;
     margin: 80px 0 0 0;
+}
+
+.place:nth-child(1) {
+    margin: 0 0 0 0;
 }
 
 @media all and (max-width: 1024px) {
@@ -38,6 +43,6 @@
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto;
         grid-gap: 48px 32px;
-        margin: 80px 0 0 0;
+        margin: 48px 0 0 0;
     }
 }
