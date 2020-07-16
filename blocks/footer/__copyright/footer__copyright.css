@@ -9,7 +9,7 @@
 }
 
 
-@media all and (max-width: 465px) {
+@media all and (max-width: 765px) {
     .footer__copyright {
         margin: 48px 0 24px 0;
     }
